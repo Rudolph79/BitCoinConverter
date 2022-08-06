@@ -1,0 +1,15 @@
+{
+  "name": "boris_flesch",
+  "version": "1.0.0",
+  "description": "Application pour convertir la valeur du Bitcoin en une devise",
+  "main": "btc.js",
+  "scripts": {
+    "dev": "clear && nodemon btc.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ariel Rudolph",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
